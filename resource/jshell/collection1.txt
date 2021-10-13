@@ -1,0 +1,30 @@
+List<String> ll=List.of("Yak","Zebra");
+List<String> arr=new ArrayList<>();
+arr.add("Apple")
+arr
+arr.add("Banana")
+arr.addAll(ll)
+arr
+arr.add("cat")
+arr.set(2,"Fish")
+arr
+arr.remove(2)
+arr
+arr
+arr.remove("cat")
+arr
+arr.remove("do")
+arr
+arr.add("Cat")
+arr.add("Dog")
+arr
+for(int i=0;i<arr.size();i++){
+    System.out.println(arr.get(i));
+}
+for(String i:arr){
+    System.out.println(i);
+}
+Iterator it=arr.iterator();
+while(it.hasNext()){
+    System.out.println(it.next());
+}
