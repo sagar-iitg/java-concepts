@@ -43,6 +43,15 @@ println--->ln stands for nextline.
 need to declare data type like int,float,boolean, 
 strict language--> safe
 
+--------------
+
+Type Conversion
+
+a. type compatible
+b. destination type> source type
+
+
+byte-> short->int-> float->long-> double
 
 
 
