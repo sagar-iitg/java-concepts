@@ -63,6 +63,18 @@ Type Promotion in Expression
 2. If one operand is long, float, or double the whole expression is promoted to long, float or double respectively.
 
 Type Promotion only works with expression.
+-------------
+
+Types Of operators
+
+Arithmetic Operators(Unary/ binary)
+Relational Operators
+Logical operators
+Bitwise Operators (Bit Manipulation)
+Assignent Operators
+
+----------------
+
 
 
 
