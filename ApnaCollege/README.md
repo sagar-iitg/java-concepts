@@ -74,6 +74,22 @@ Bitwise Operators (Bit Manipulation)
 Assignent Operators
 
 ----------------
+Unary Operator
+
+PreIncrement
+++a
+1. value change
+2. value use
+
+PostIncrement
+a++
+1. value use
+2. value change
+
+
+-----------------
+
+
 
 
 
