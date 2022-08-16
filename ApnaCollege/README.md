@@ -89,6 +89,39 @@ a++
 
 -----------------
 
+Relational Operator
+returns true and false
+
+
+
+== equal
+!= not equal
+> 
+<
+>=
+<=
+
+
+Logical Operator
+
+&& Logical AND
+|| Logical OR
+! Logical Not
+
+
+-----------------
+Assignment Operators
+
+
+=
++=
+-=
+*=
+/=
+
+
+
+
 
 
 
