@@ -1,3 +1,5 @@
+package basics;
+
 class TypePromotionByte {
 
     public static void main(String[] args) {

@@ -1,9 +1,13 @@
-public class PrimeNumber {
+package basics;
+
+import java.util.*;
+
+public class PrimeNumberOptimization {
 
     public static void main(String[] args) {
 
         PrimeNumber p = new PrimeNumber();
-        p.prime(2);
+        p.prime(23);
     }
 
     void prime(int n) {
@@ -11,13 +15,16 @@ public class PrimeNumber {
             System.out.println("Prime Number");
             return;
         }
-        for (int i = 2; i <= n - 1; i++) {
+
+        for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 System.out.println("Prime Number");
-                break;
+                return;
             }
-            System.out.println("Not a prime Number");
+
         }
+
+        System.out.println("Not a prime Number");
 
     }
 
