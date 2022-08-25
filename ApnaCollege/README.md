@@ -121,6 +121,28 @@ Assignment Operators
 --------------------------
 
 
+returnType name(type param1,type param2){
+    //body
+    return statement;
+
+}
+
+1. formal arguments
+2. actual arguments
+
+-----------------
+formal params
+params
+definition
+-------------
+
+---------------
+actual params
+arguments
+call
+--------------
+
+
 
 
 
