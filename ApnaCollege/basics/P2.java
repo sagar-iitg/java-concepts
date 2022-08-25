@@ -15,6 +15,7 @@ public class P2 {
             System.out.println(n);
 
         } while (true);
+        sc.close();
 
     }
 
