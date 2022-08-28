@@ -145,6 +145,19 @@ call
 
 Java always call by value
 
+---
+Methods
+
+User Defined
+Inbuilt Methods
+
+
+Math Class
+Math.pow()
+Math.sqrt()
+Math.max()
+
+
 
 
 
