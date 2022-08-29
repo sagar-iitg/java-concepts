@@ -158,6 +158,17 @@ Math.sqrt()
 Math.max()
 
 
+------------
+Function Overloading
+----------------
+Type of params
+no of params
+
+--------------doesn't depend on return type-------------
+
+
+
+
 
 
 
