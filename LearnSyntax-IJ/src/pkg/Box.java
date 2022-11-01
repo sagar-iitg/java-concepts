@@ -1,4 +1,4 @@
-
+package pkg;
 //Object won't provide type saftey
 
 public class Box<T>{

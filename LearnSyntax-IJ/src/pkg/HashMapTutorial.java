@@ -1,3 +1,5 @@
+package pkg;
+
 import java.util.HashMap;
 
 public class HashMapTutorial {

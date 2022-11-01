@@ -1,3 +1,5 @@
+package pkg;
+
 public class SecondHighest {
 
     public static void main(String[] args) {

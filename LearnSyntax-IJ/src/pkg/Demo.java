@@ -1,3 +1,5 @@
+package pkg;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,5 +23,11 @@ public class Demo {
 
 
 
+    }
+
+    static interface One {
+        default void method() {
+            System.out.println("Demo.One");
+        }
     }
 }
