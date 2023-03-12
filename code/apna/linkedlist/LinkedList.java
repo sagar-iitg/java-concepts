@@ -223,7 +223,7 @@ public class LinkedList{
             sz++;
             temp=temp.next;
         }
-        
+
         if(n==sz)
         {
             head=head.next;
@@ -264,6 +264,70 @@ public class LinkedList{
        // return prev;
 
 
+    }
+
+    public Node findMid(Node head)
+    {
+
+        Node slow=head;
+        Node fast=head;
+
+        while(fast!=null && fast.next!=null)
+        {
+             slow=slow.next;
+             fast=fast.next.next;
+
+        }
+
+        //slow is my mid point
+
+        return slow;
+
+    }
+
+    public boolean checkPalindrome()
+    {
+
+
+        if(head==null || head.next==null)
+        {
+            return true;
+
+        }
+        //step 1 find mid
+
+        Node midNode=findMid(head);
+
+        // step reverse 2nd half
+        Node prev=null;
+        Node curr=midNode;
+        Node next;
+        while(curr!=null)
+        {
+            next=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+
+        }
+         //check left and right half
+        Node right=prev; //head of right half
+        Node left=head; //head of left half
+
+        while(right!=null)
+        {
+            if(left.data!=right.data)
+            {
+                return false;
+            }
+            left=left.next;
+            right=right.next;
+            
+        }
+        return true;
+
+
+       
     }
 
     public static void main(String[] args) {

@@ -9,18 +9,22 @@ public class ClientLinkedList {
         // ll.head=new Node(1);
         // ll.head.next=new Node(2);
        
-        ll.addFirst(2);
-        ll.addFirst(1);
-        ll.addLast(3);
-        ll.addLast(4);
-        ll.addLast(5);
+      
+        ll.addLast(1);
+        ll.addLast(2);
+        ll.addLast(2);
+        ll.addLast(1);
 
         
         ll.print();
+        System.out.println(ll.checkPalindrome());
+      
+        ll.print();
+        
         // ll.reverse();
         // ll.print();
-        ll.deleteNthFromEnd(2);
-        ll.print();
+      //  ll.deleteNthFromEnd(2);
+        //ll.print();
 
         //System.out.println(ll.recSearch(4));
 
