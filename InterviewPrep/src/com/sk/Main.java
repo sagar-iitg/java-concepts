@@ -13,6 +13,13 @@ public class Main {
 		arr.add(2);
 		
 		
+		int[] arr1=new int[5];
+		int n=arr1.length;
+		
+		System.out.println(n);
+		
+		
+		
 	}
 
 }

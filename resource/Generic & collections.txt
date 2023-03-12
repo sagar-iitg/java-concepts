@@ -1,0 +1,66 @@
+
+
+Generics in java
+----
+generics are facility of generic programming
+
+These feature were added to the java programming 
+language back in 2004 within version J2SE 5.0
+
+
+they were designed to extend java's type system to allow a type or method to opearate 
+on objects of various types while providing compile-time type safety
+
+Generics in java
+
+In Software engineering bugs are simply a fact of life
+but some bugs are easier to detect than others
+there are two main types of bugs and errors:-
+RUN time errors
+
+These errors are problematic 
+Don't always surface immediately and it 
+may be at a point in the program that is far 
+from the actual cause of the problem
+
+
+
+Compile time errors
+
+
+It is easy to detect them
+as the application won't compile
+compile's errors mesaage help to figure-out
+what the problem is:
+
+compile's time error can be fixed easily
+
+
+Why to Use generics?
+
+generics add stability to your code.
+
+it makes most of the bugs and errors to be detachable at compile-time and not 
+at run-time.
+
+We prefer compile time error to run time errors.
+
+
+Why to use generics?
+
+generics enables types (classes and interface) to be 
+parameters when defining classes, interface and methods
+
+we can reuse the same code with differeny inputs
+
+It is not a good programming practise to do type castings - we
+should use generics instead
+
+Generics has ,many befenfits over non-generic code
+
+
+
+
+
+
+

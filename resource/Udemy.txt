@@ -1,0 +1,278 @@
+Jshell
+
+From java 9
+Java is equally easy to learn -Jshell
+Java REPL (Read Eval Print Loop)
+
+Exit from jshell
+/exit
+
+
+Parameter
+
+
+Escape Charactrer
+
+"\
+\n
+\t
+
+
+format specifier
+%d
+%s
+
+
+Declaration
+Assignment
+
+Java is Strongly typed language
+
+
+
+Pascal Case
+Camelcase
+camelCase
+PascalCase
+
+
+
+(
+	int i=1;
+	for(;i<=10;i++);
+Empty Statement in for loop
+)
+
+literal is numeric value
+integer literal
+decimal literal
+
+
+jshell
+/methods
+/backup.txt
+/exit
+/edit method
+/list method()
+
+
+
+
+
+compiling and execution
+java code--->compiled---->bytecode--->run---->bytecode--->windowsjvm-->windows instruction
+
+
+class file contains bytecode
+
+class is like template.
+multiple instances of class.
+
+class name should match the filename
+
+JVM---> convert bytes code into windows/mac Instructions(Machine Instructions)
+JVM runs Java Bytecode
+JRE=JVM+Libraries+OtherComponenets(Libraries related to java)
+java classes is part of JRE
+
+JDK=JRE+Compilers+Debuggers
+all the compilers
+develop java program
+
+
+
+
+Object Oriented Programming
+
+
+
+Data/State/fields
+actions/behaviour/methods/function
+
+
+
+
+Wrapper Class
+
+floating number in java is accurate
+
+character 
+Unicode
+Unicode character is supported by java
+2Byte
+Internally character is Number
+
+
+in calculation don't use float and double data types
+Use BigDecimal
+---------------
+Reference Types in java
+
+
+
+Each method has a seprate stack
+stack and heap memory
+
+Heap(Global Shared)
+
+Generally primitive data is stored in stack
+
+
+String is immutable.
+concatentation executes from left to right
+1+2+"3"===> "33"
+"1"+2+3====>"123"
+
+creating object is very very costly
+
+Synchronised Class
+
+StringBuffer (thread safe)
+StringBuilder (if u not care about of multithreading)
+
+
+
+
+Wrapper Classes
+A wrapper class wraps(encloses) around a data type and gives it an object apperance.
+wrapper classes are final and immutable
+
+primitive:boolean,byte,char,double,float,int,long,short
+Wrapper:Boolean,Byte,Character,Double,Float,Integer,Long,Short
+
+
+
+why wrapper classes?
+
+Auto boxing
+
+
+JODA Time Framework
+
+
+
+LocalDate,LocalDateTime,LocalTime
+
+
+Show default imports
+
+/imports
+
+
+
+Arrays.sort(arr) //InPosition Sorting
+
+
+
+--------
+variable arguments should be the last arguments
+Array List is Part of collections
+
+
+
+we can't have two public class in one .java file
+
+Java rule: One Public class in one file
+
+Multiple inheritance is not supported by java.
+but it is supported by cpp
+
+Abstract class
+
+Syntatically Abstract and interface both are same.
+
+instead of class keyword we are using interface keyword
+
+Interface
+Communication between Two Projects
+Interface is Contract
+In interface everything is public
+
+
+
+Abstarct method can have private
+
+
+Polymorphism
+
+Samecode different behaviour
+
+
+
+Normal array is immutable
+Low Level DataStructure
+Business Logic
+
+
+
+List,Set,Map,Queue
+
+List can have duplicates
+
+
+
+Exception handling
+
+Good and Bad Programmers cause exception handling
+
+
+Friendly message to the end user.
+
+Enough information to debug the problem.
+
+Exception is class
+
+
+Primarily three types of error
+Syntax Error
+Logical Error
+Runtime Error
+
+Runtime Errors is also known as exceptions
+
+
+checked exception(Handled through compiler)
+unchecked exception(runtime exception)
+
+Commonly Occuring Exceptions
+
+1.Null Pointer Exceptions
+2.Arithmetic Exceptions
+3.ArrayIndexOutOfBoundException
+4.IiilegalArugument Exception
+5.NumberformatException.
+
+
+
+
+Concurrency
+i++ is not atomic operation  
+
+
+Spring framework
+
+Tight Coupling
+losse Coupling
+
+How many changes we need to make
+
+    
+
+
+
+
+
+@componenet Class managed by spring framework
+ 
+
+
+
+
+
+
+
+
+
+
+
+

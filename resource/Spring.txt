@@ -1,0 +1,43 @@
+
+Design Pattern
+
+Dependency Injection
+
+why want to use dependency injection?
+what is dependency injection?
+
+build code/objects
+
+those objects are dependent on other objects 
+
+The moment you calling new (creation of object) you r doing tight coupling
+
+Maven is basically a build tool
+
+why do we need maven?
+
+core java application -jar<packaging>
+web java application -war<packaging>
+
+
+for third party api
+you have to mention dependency on pom.xml file
+
+why do we need spring framework?
+
+web
+dependency injection
+
+Beanfactory
+ApplicationContext
+
+if we are changing java file(mainfile) you have to recompile
+but when r u changing xml file  you have to only save xml file
+
+
+xml based configuration
+annotation based configuration
+java based configuration
+
+
+

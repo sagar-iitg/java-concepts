@@ -1,0 +1,224 @@
+jdk download
+jdk---Development Kit
+
+Oak
+Simple Portable Reliable -> Goal of this language
+
+
+Sun microsystems
+Java-> Purely object oriented language
+
+Java complied language bhi hai interpreted language bhi hai.
+
+Source Code (compiled) --->   Byte Code(interpreted) --->Machine Language
+
+JDK-> Java Development Kit
+collection of tools used for developing and running java program
+
+
+JRE-> Java Runtime Environment. Helps in executing  Programs developed in JAVA.
+
+
+A package in Java is used to group related classes.(Think of it as a folder in a file directory)
+
+
+The main() method is entry point into the application 
+
+
+
+Basic Structure of Java Program.
+
+1.Functions
+2.Classes
+
+Access Modifier
+
+Static Method(not associated with class)
+
+
+
+
+
+
+Naming Convention in java
+. For Classes we use PascalConvention
+Eg: MyNameIsSagar
+
+.For functions we use camelCaseCOnvention
+Eg: myNameIsSagar
+
+Classes---->  AddTwoNumber (PascalConvention)
+function ---> addTwoNumber (camelConvention)
+spaces is not allowed in Identifier
+
+
+(unique package) Parent Package
+
+
+Documented Section ----->         Suggested 
+Package Statement    ----->       Optional
+Import Statements        ----->   Optional
+InterfaceStatements ------->      Optional
+Class Definitions ---------->     Optional
+Main Method Class{
+
+Main Method definition -------->   Essentional. 
+}
+
+
+Data Types in java.
+
+primitive Datatype:(8)
+
+int
+long
+double
+short
+byte
+float
+char 
+bool
+
+
+Non Primitive DataType
+Array 
+
+
+Keywords(reserrved words)
+static, class, public, void, int ,long
+
+Java is caseSensitive
+
+$,_(underScore).digit is valid in variable name
+
+Java is Statically typed
+
+
+byte-- (-128,127) 1byte
+short ---(-2^8 to 2^8-1) 2byte
+int ------ (-2^16 to 2^16-1)
+char--------2Byte(supports unicode)
+
+boolean--- size depends on jvm
+(default false)
+
+
+Java Literals
+Pure object oriented language
+Keywords can't be used as a identifier
+
+Principal's for crearting java Programming world
+Simple 
+Robust
+Portable   
+Platform-independent
+Secured
+High Performance
+MultiThreaded
+Architectural Neuttral
+Object-Oriented
+Interpreted
+Dynamic
+Distributed
+
+
+User Input
+
+Scanner classes
+
+System.in ---> Want to read from Keyword
+
+
+
+OOPs Concept
+------------------
+Noun-->class (Employee)
+Adjective--->Attributes(name,age,salary)
+Verb------>Methods(getsalary(),increment())
+
+
+OOPs:
+
+
+Abstraction  (aam khao guthli mat gino)
+Hiding Internal Details
+
+Encapsulation
+(like a capsule)
+all vitamins in this capsule
+
+Car(Music system,chair,Speaker)
+
+Polymorphism 
+One Entity many forms
+
+Smart phone(call,calculator,photo,camera)
+
+
+Inheritance
+Rickshaw--->Erickshaw
+Phone-------->Smart Phone 
+
+
+
+Access Modifiers
+default
+private
+public
+protected
+
+
+Constructor in Java
+
+A memeber function used to initialize an object while creating it.
+
+
+
+Exception Handling
+
+
+finally  blocks makes sure -Some piece of code will surely execute
+catch --Handle exceptions
+
+
+Checked Exception
+Unchecked Exception
+
+Exception Hierarchy
+
+// Pre-defined java classes
+
+class Error extends Throwable{}
+class Exception extends Throwable{}
+class InterruptedException extends Exception{}
+class RunTimeException extends Exception{}
+
+class NullPointerExceptions extends RunTimeException{}
+ 
+
+
+//Functional Programming
+stream
+Sequence of Numbers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

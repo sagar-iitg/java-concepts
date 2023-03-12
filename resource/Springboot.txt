@@ -1,0 +1,16 @@
+pom.xml is simple xml
+pom-   project object model
+
+
+what is jar?
+java archive
+(like zip file)
+packaging all the classes 
+
+
+Front Controller
+Dispatcher Servelet
+
+GET method is not secure
+
+
