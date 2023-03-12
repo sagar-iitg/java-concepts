@@ -1,0 +1,7 @@
+*1
+*2
+*3
+
+06 var1 PIC S9(18) COMP-5 SYNC.
+06 var2-cont PIC X(16).
+06 var3 PIC S9(18) COMP-5 SYNC.
