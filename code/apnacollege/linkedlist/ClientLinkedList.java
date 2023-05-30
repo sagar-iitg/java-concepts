@@ -10,16 +10,19 @@ public class ClientLinkedList {
         // ll.head.next=new Node(2);
        
       
-        ll.addLast(1);
-        ll.addLast(2);
-        ll.addLast(2);
-        ll.addLast(1);
+        // ll.addLast(1);
+        // ll.addLast(2);
+        // ll.addLast(2);
+        // ll.addLast(1);
+          ll.addFirst(1);
+          ll.addLast(2);
+          ll.addLast(3);
 
-        
         ll.print();
-        System.out.println(ll.checkPalindrome());
+        System.out.println(ll.recSearch(-1));
+        //System.out.println(ll.checkPalindrome());
       
-        ll.print();
+        //ll.print();
         
         // ll.reverse();
         // ll.print();

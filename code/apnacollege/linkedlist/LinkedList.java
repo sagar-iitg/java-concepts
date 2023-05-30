@@ -270,7 +270,7 @@ public class LinkedList{
     {
 
         Node slow=head;
-        Node fast=head;
+        Node fast=head.next;
 
         while(fast!=null && fast.next!=null)
         {
@@ -342,26 +342,28 @@ public class LinkedList{
         ll.addLast(3);
         ll.addLast(4);
         ll.print();
-        System.out.println();
-        ll.add(9, 0);
-        ll.print();
-        System.out.println("\n"+LinkedList.size);
-        ll.removeFirst();
+        System.out.println( ll.findMid(head).data);
+       
+        // System.out.println();
+        // ll.add(9, 0);
+        // ll.print();
+        // System.out.println("\n"+LinkedList.size);
+        // ll.removeFirst();
 
-        ll.print();
-        ll.removeLast();
+        // ll.print();
+        // ll.removeLast();
 
-        ll.print();
-        ll.removeLast();
+        // ll.print();
+        // ll.removeLast();
 
-        ll.print();
-        ll.removeLast();
+        // ll.print();
+        // ll.removeLast();
 
-        ll.print();
-        ll.removeLast();
+        // ll.print();
+        // ll.removeLast();
 
-        ll.print();
-         ll.removeLast();
+        // ll.print();
+        //  ll.removeLast();
 
         // ll.print();
     

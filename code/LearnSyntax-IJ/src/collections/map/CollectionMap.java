@@ -28,7 +28,7 @@ public class CollectionMap {
 
 				ans[1] = i;
 				ans[0] = map.get(target - arr[i]);
-				break;r
+				break;
 			}
 			map.put(arr[i], i);
 		}
