@@ -1,4 +1,4 @@
-package comparator;
+package com.sagar.comparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

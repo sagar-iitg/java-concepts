@@ -1,4 +1,4 @@
-package comparator;
+package com.sagar.comparator;
 
 public class Student {
 	
