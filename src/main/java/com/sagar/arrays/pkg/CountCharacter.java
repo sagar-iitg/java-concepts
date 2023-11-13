@@ -28,23 +28,7 @@ public class CountCharacter {
         }
 
 
-
-        List<Integer> arr=new ArrayList<>();
-
-        arr.add(1);
-        arr.add(1);
-        arr.add(13);
-        arr.add(1333);
-        arr.add(1344);
-        arr.add(1555);
-
-
-        arr.forEach(System.out::println);
-
-
-
-
-        System.out.println(map);
+       map.forEach((key, value) -> System.out.println(key + " " + value));
 
     }
 }
