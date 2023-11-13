@@ -1,4 +1,4 @@
-package comparable;
+package com.sagar.comparable;
 
 public class Employee implements Comparable<Employee>{
 	

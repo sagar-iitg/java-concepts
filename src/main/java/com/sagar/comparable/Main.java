@@ -1,4 +1,4 @@
-package comparable;
+package com.sagar.comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;
