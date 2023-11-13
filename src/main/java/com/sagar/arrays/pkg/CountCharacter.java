@@ -39,7 +39,7 @@ public class CountCharacter {
         arr.add(1555);
 
 
-        arr.stream().forEach(System.out::println);
+        arr.forEach(System.out::println);
 
 
 
