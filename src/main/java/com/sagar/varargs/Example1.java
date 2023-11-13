@@ -1,4 +1,4 @@
-package varargs;
+package com.sagar.varargs;
 
 import java.util.Arrays;
 
