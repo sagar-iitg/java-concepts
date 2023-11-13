@@ -1,4 +1,4 @@
-package HashandEquals;
+package com.sagar.HashandEquals;
 
 import java.util.Objects;
 
