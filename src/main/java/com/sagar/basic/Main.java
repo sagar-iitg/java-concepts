@@ -1,4 +1,4 @@
-package basic;
+package com.sagar.basic;
 
 public class Main implements A{
 

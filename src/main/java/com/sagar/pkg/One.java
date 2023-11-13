@@ -1,4 +1,4 @@
-package pkg;
+package com.sagar.pkg;
 
 interface One {
     default void method()    {

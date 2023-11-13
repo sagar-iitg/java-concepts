@@ -1,4 +1,4 @@
-package basic;
+package com.sagar.basic;
 
 import java.util.ArrayList;
 import java.util.Arrays;

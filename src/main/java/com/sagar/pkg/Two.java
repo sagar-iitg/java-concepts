@@ -1,7 +1,7 @@
-package pkg;
+package com.sagar.pkg;
 
 interface Two {
     default void method () {
-        System.out.println("One");
+        System.out.println("two");
     }
 }

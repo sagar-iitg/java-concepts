@@ -1,4 +1,4 @@
-package basic;
+package com.sagar.basic;
 
 public class Exmaple6 {
     public static void main(String[] args) {
