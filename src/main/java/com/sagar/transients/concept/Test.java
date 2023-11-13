@@ -1,5 +1,7 @@
+package com.sagar.transients.concept;
 
 import java.io.*;
+
 class Test implements Serializable
 {
 	// Normal variables
