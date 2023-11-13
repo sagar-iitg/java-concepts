@@ -1,4 +1,8 @@
 # Java
+
+
+<a href="http://www.angelikalanger.com/GenericsFAQ/FAQSections/TechnicalDetails.html#FAQ106" target="_blank">Technicalities - Under The Hood Of The Compiler</a>
+
 Basics
 
 
