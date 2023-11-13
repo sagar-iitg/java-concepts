@@ -1,4 +1,4 @@
-package arrays.pkg;
+package com.sagar.arrays.pkg;
 
 import java.util.ArrayList;
 import java.util.HashMap;
