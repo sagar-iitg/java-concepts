@@ -1,4 +1,4 @@
-package varargs;
+package com.sagar.varargs;
 
 public class SumOfNos {
 
