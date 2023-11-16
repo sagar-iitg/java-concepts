@@ -23,10 +23,11 @@ class Test implements Serializable
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
 		oos.writeObject(input);
 
-		// de-serialization
+//		// de-serialization
 		FileInputStream fis = new FileInputStream("abc.txt");
 		ObjectInputStream ois = new ObjectInputStream(fis);
-		Test output = (Test)ois.readObject();
+		Test output =(Test) ois.readObject();
+		System.out.println(output);
 		System.out.println("i = " + output.i);
 		System.out.println("j = " + output.j);
 		System.out.println("k = " + output.k);

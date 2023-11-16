@@ -14,12 +14,9 @@ public class SumOfNos {
         int sum=0;
 
         int n=s.length;
-        for(int i=0;i<n;i++){
-            sum=sum+s[i];
-        }
+       for (int ele : s) {
+           sum = sum + ele;
+       }
        System.out.println(sum);
-
-
-
     }
 }
