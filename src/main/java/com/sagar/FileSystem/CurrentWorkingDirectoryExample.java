@@ -9,5 +9,6 @@ public class CurrentWorkingDirectoryExample {
         Path currentWorkingDirectory = Paths.get("");
 
         System.out.println("Current Working Directory: " + currentWorkingDirectory.toAbsolutePath());
+
     }
 }
