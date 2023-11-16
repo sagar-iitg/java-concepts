@@ -1,4 +1,4 @@
-package java8;
+package com.sagar.java8;
 
 import java.util.List;
 import java.util.stream.Collectors;
