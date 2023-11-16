@@ -7,6 +7,7 @@ public class CurrentJavaFilePathExample {
     public static void main(String[] args) {
         // Get the current class
         Class<?> currentClass = CurrentJavaFilePathExample.class;
+        System.out.println(currentClass);
 
         // Get the package and class name
         String packageName = currentClass.getPackage().getName();
