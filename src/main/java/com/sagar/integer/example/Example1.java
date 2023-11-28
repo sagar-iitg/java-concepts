@@ -5,8 +5,10 @@ import static java.lang.Integer.parseInt;
 public class Example1 {
 
     public static void main(String[] args) {
+        Integer
 
         //returns primitive int
+
         int x= parseInt("0",10);
         System.out.println(x);
         System.out.println(parseInt("+42",10));
