@@ -5,7 +5,7 @@ import static java.lang.Integer.parseInt;
 public class Example1 {
 
     public static void main(String[] args) {
-        Integer
+
 
         //returns primitive int
 
