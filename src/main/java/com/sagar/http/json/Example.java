@@ -13,6 +13,9 @@ public class Example {
         HttpURLConnection connection = null;
         try {
             URL url = new URL("https://jsonplaceholder.typicode.com/todos/1");
+            System.out.println(url.getPath());
+            System.out.println(url.getQuery());
+
 
             connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
