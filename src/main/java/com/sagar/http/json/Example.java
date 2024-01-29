@@ -10,14 +10,15 @@ import java.net.URL;
 public class Example {
 
     public static void main(String[] args) {
-        HttpURLConnection connection = null;
+        //HttpURLConnection connection = null;
         try {
-            URL url = new URL("https://jsonplaceholder.typicode.com/todos/1");
+            URL url = new URL("https://jsonplaceholder.typicode.com/todos/2");
             System.out.println(url.getPath());
             System.out.println(url.getQuery());
 
 
-            connection = (HttpURLConnection) url.openConnection();
+
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
 
             // Getting the response code
@@ -27,6 +28,7 @@ public class Example {
             if (responseCode == HttpURLConnection.HTTP_OK) {
                 // Read the response from the API using BufferedReader and streams
                 try (BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()))) {
+
                     StringBuilder response = new StringBuilder();
                     String line;
                     while ((line = reader.readLine()) != null) {
@@ -47,10 +49,6 @@ public class Example {
             }
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-            if (connection != null) {
-                connection.disconnect();
-            }
         }
     }
 }
