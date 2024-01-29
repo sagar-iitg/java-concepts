@@ -18,7 +18,7 @@ public class ExampleWithDeleteRequest {
 
             // Open a connection to the URL using HttpURLConnection
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            System.out.println(connection);
+            System.out.println("con---"+  connection);
 
             // Set the request method to DELETE
             connection.setRequestMethod("DELETE");
