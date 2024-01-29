@@ -66,6 +66,7 @@ public class ExampleWithPutRequest {
 
                     // Extract any relevant information from the JSON response
                     // ...
+                    System.out.println(jsonResponse.getString("title"));
 
                 }
             } else {
