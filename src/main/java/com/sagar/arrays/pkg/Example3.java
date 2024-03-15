@@ -1,16 +1,14 @@
 package com.sagar.arrays.pkg;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Example3 {
     public static void main(String[] args) {
         //list of list
         List<Student> list=new ArrayList<>();
         list.add(new Student(1,"abc",89000));
-        list.add(new Student(1,"abc",70010));
+        list.add(new Student(2,"abc",70010));
         System.out.println(list);
 
 
@@ -21,6 +19,9 @@ public class Example3 {
                 }
 
         }
+
+
+
         System.out.println(list);
 
 
