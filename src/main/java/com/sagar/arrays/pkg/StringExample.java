@@ -12,6 +12,8 @@ public class StringExample {
         System.out.println(s[0]);
         System.out.println(Arrays.toString(s));
         System.out.println(s);
+        System.out.println(s.hashCode());
+        System.out.println(Arrays.hashCode(s));
 
     }
 }
