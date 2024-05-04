@@ -1,4 +1,4 @@
-package primitives;
+package com.sagar.primitives;
 
 public class Solution {
 

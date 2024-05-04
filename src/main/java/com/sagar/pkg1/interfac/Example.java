@@ -1,4 +1,4 @@
-package pkg1.interfac;
+package com.sagar.pkg1.interfac;
 
 
 interface interface1{

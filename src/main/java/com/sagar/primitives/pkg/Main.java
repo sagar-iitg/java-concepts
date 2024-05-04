@@ -1,4 +1,4 @@
-package primitives.pkg;
+package com.sagar.primitives.pkg;
 
 public class Main {
 

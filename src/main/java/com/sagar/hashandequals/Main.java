@@ -1,4 +1,4 @@
-package com.sagar.HashandEquals;
+package com.sagar.hashandequals;
 
 public class Main {
 

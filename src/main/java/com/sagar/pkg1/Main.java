@@ -1,4 +1,4 @@
-package pkg1;
+package com.sagar.pkg1;
 
 public class Main {
 

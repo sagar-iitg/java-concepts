@@ -1,11 +1,11 @@
-package copybytes;
+package com.sagar.copybytes;
 
 
 
 
-import primitives.*;
+import com.sagar.primitives.*;
 
-import primitives.pkg.Main;
+import com.sagar.primitives.pkg.Main;
 
 
 public class Example4 {

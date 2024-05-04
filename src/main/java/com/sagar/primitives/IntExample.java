@@ -1,4 +1,4 @@
-package primitives;
+package com.sagar.primitives;
 
 import java.io.Reader;
 import java.util.HashMap;

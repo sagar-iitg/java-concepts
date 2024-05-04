@@ -1,7 +1,5 @@
-package HashandEquals;
+package com.sagar.hashandequals;
 
-
-import java.util.Objects;
 
 class Employee{
 
