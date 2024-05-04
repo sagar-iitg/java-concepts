@@ -1,4 +1,4 @@
-package nullcheck;
+package com.sagar.nullcheck;
 
 public class Main {
 
