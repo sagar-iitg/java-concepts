@@ -12,7 +12,5 @@ public class Example2 {
         ArrayList<Integer> arrayList=new ArrayList<>(10);
         System.out.println( arrayList.toString());
 //      System.out.println(arrayList.get(0));
-
-
     }
 }
