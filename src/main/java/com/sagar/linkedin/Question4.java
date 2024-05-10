@@ -1,4 +1,4 @@
-package linkedin;
+package com.sagar.linkedin;
 
 class Main {
 

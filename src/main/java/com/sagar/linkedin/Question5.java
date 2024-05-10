@@ -1,4 +1,4 @@
-package linkedin;
+package com.sagar.linkedin;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,7 +13,9 @@ public class Question5 {
 		arr.add("ankit");
 		System.out.println(arr);
 		arr.sort(Comparator.comparing(String::toString));
+		System.out.println(arr);
 		arr.add("aaa");
+		System.out.println(arr);
 		Collections.sort(arr);
 		System.out.println(arr);
 	}
