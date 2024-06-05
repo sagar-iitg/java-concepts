@@ -54,10 +54,10 @@ public class Dept {
         Dept phy=new Dept("physics","banglore",1999);
        // HashMap<Dept,String>
 
-        List<Dept> list=new ArrayList<>();
-        list.add(math);
-        list.add(eng);
-        list.add(phy);
+//        List<Dept> list=new ArrayList<>();
+//        list.add(math);
+//        list.add(eng);
+//        list.add(phy);
         HashMap<Dept,Integer> map=new HashMap<>();
         System.out.println(map);
         map.put(math,math.getHeadCount());
