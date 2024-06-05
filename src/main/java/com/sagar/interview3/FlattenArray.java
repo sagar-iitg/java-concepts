@@ -15,7 +15,9 @@ public class FlattenArray {
 
         List<Integer> ans =new ArrayList<>();
         flattenHelper(array,ans);
-        return ans.toArray(new Integer[0]);
+        Integer[] res=new Integer[ans.size()];
+        for(int i=0;i<res.length;i++) res[i]=ans.get(i);
+        return res;
 
     }
     public static void flattenHelper(Object[] array, List<Integer> ans){
