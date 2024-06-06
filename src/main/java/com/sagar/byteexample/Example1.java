@@ -1,4 +1,4 @@
-package byteexample;
+package com.sagar.byteexample;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
