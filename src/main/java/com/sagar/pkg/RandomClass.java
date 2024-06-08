@@ -1,4 +1,4 @@
-package pkg;
+package com.sagar.pkg;
 
 import java.util.Random;
 

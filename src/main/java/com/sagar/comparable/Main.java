@@ -19,10 +19,7 @@ public class Main {
 		list.add(emp2);
 		list.add(emp3);
 		list.add(emp4);
-		
-		
-		
-		
+
 		System.out.println(list);
 		Collections.sort(list);
 

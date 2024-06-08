@@ -1,4 +1,4 @@
-package mypackage;
+package com.sagar.mypackage;
 
 public class Test {
 

@@ -1,4 +1,4 @@
-package pair;
+package com.sagar.pair;
 
 
 public class PairDataStructure {

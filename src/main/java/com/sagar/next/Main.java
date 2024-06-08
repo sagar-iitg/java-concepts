@@ -1,4 +1,4 @@
-package next;
+package com.sagar.next;
 
 public class Main {
 

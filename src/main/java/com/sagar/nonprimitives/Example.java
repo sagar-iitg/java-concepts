@@ -1,4 +1,4 @@
-package nonprimitives;
+package com.sagar.nonprimitives;
 // Java program to find large factorials using BigInteger
 import java.math.BigInteger;
 import java.util.Scanner;

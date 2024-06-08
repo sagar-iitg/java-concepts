@@ -20,7 +20,8 @@ public class Main {
 		//list.stream().filter(x->x.getDisease().equalsIgnoreCase("Corona")).forEach(System.out::println);
 		//list.stream().filter(x->x.getDisease().equalsIgnoreCase("Corona") && x.getAge() >=25).forEach(System.out::println);
 	Double avgBill=list.stream().filter(x->x.getDisease().
-			equalsIgnoreCase("Corona")).collect(Collectors.averagingDouble(Patient::getAmount));
+			equalsIgnoreCase("Corona")).
+			collect(Collectors.averagingDouble(Patient::getAmount));
 	
 	
 	System.out.println(avgBill);

@@ -1,4 +1,4 @@
-package collections.map;
+package com.sagar.collections.map;
 
 import java.util.HashMap;
 import java.util.Map;

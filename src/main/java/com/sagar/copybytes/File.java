@@ -1,4 +1,4 @@
-package copybytes;
+package com.sagar.copybytes;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
