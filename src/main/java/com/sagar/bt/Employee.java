@@ -61,7 +61,8 @@ public class Employee {
         list.add(e5);
         System.out.println(list);
 
-        Collections.sort(list, Comparator.comparing(Employee::getName).thenComparing(Employee::getSalary));
+        //Collections.sort(list, Comparator.comparing(Employee::getName).thenComparing(Employee::getSalary));
+        Collections.sort(list, Comparator.comparing(Employee::getName).reversed().thenComparing(Employee::getSalary));
         System.out.println(list);
 
 
