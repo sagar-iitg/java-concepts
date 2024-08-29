@@ -1,6 +1,6 @@
 package com.sagar.string;
 
-class Solution {
+class LongestPalindromic1 {
     public static String longestPalindrome(String s) {
 
         String ans="";

@@ -1,6 +1,7 @@
 package com.sagar.primitives;
 
 import java.io.Reader;
+import java.util.ConcurrentModificationException;
 import java.util.HashMap;
 
 public class IntExample {
@@ -16,5 +17,7 @@ public class IntExample {
         System.out.println(String.class);
         System.out.println(Reader.class);
         System.out.println(HashMap.class);
+        System.out.println(Math.class);
+        System.out.println(ConcurrentModificationException.class);
     }
 }
