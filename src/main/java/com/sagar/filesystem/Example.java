@@ -1,4 +1,4 @@
-package com.sagar.FileSystem;
+package com.sagar.filesystem;
 
 public class Example {
     public static void main(String[] args) {

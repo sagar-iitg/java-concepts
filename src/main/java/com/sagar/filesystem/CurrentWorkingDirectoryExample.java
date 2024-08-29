@@ -1,4 +1,4 @@
-package com.sagar.FileSystem;
+package com.sagar.filesystem;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

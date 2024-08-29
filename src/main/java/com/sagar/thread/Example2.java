@@ -1,4 +1,4 @@
-package thread;
+package com.sagar.thread;
 
 public class Example2 implements Runnable{
 

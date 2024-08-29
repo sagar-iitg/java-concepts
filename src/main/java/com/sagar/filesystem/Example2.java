@@ -1,6 +1,5 @@
-package com.sagar.FileSystem;
+package com.sagar.filesystem;
 
-import java.io.File;
 import java.io.IOException;
 
 public class Example2 {
