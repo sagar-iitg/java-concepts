@@ -1,4 +1,4 @@
-package string;
+package com.sagar.string;
 
 public class StringBuilderExample2 {
 

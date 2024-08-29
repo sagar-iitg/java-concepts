@@ -1,10 +1,10 @@
-package string;
+package com.sagar.string;
 
 public class IndexOfExample {
 
     public static void main(String[] args) {
 
-        String str="ananajhsabckillkabc";
+        String str="ananajhsabckillkabczabcd";
         String s="abcd";
         System.out.println(str.indexOf(s));
         str ="aaaa";

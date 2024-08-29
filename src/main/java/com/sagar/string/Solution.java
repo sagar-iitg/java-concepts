@@ -1,7 +1,7 @@
 package com.sagar.string;
 
 class Solution {
-    public String longestPalindrome(String s) {
+    public static String longestPalindrome(String s) {
 
         String ans="";
 
@@ -30,7 +30,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(expand("babad",3,4));
+        System.out.println(longestPalindrome("babad"));
     }
 
 }

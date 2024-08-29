@@ -1,4 +1,4 @@
-package string;
+package com.sagar.string;
 
 import java.nio.charset.Charset;
 

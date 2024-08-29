@@ -1,4 +1,4 @@
-package string;
+package com.sagar.string;
 
 public class StringExamaple3 {
     public static void main(String[] args) {
@@ -8,6 +8,6 @@ public class StringExamaple3 {
         {
             i++;
         }
-      //  System.out.println(s.charAt(0));
+       System.out.println(s.charAt(0));
     }
 }

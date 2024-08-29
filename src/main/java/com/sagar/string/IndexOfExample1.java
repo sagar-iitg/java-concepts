@@ -4,7 +4,7 @@ public class IndexOfExample1 {
 
     public static void main(String[] args) {
 
-        String str ="ab";
+        String str ="abcab";
         System.out.println(solve(str));
 
 

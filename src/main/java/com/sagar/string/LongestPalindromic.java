@@ -3,7 +3,7 @@ package com.sagar.string;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LongestPlaindromic {
+public class LongestPalindromic {
 
     public static void main(String[] args) {
 
