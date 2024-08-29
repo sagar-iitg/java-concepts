@@ -1,10 +1,10 @@
-package syspkg;
+package com.sagar.syspkg;
 
 import java.lang.*;
 import static java.lang.System.clearProperty;
 import static java.lang.System.setProperty;
-import java.util.Arrays;
-class Exmaple3
+
+public class Example3
 {
     public static void main(String args[])
     {
