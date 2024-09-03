@@ -1,4 +1,4 @@
-package pkg3;
+package com.sagar.pkg3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,6 +17,14 @@ class Student{
 
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", clgName='" + clgName + '\'' +
+                '}';
+    }
 }
 public class Main {
 
@@ -33,12 +41,8 @@ public class Main {
         arr.add(s1);
         arr.add(s2);
 
-        List<Student> st=arr.stream().filter(i->i.id>2).collect(Collectors.toList());
+        List<Student> st=arr.stream().filter(i->i.id>=2).collect(Collectors.toList());
         System.out.println(st);
-       for(int i=0;i<st.size();i++)
-       {
-           System.out.println(st.get(i).name);
-       }
 
 
     }

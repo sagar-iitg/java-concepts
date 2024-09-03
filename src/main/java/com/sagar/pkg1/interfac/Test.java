@@ -1,4 +1,4 @@
-package pkg1.interfac;
+package com.sagar.pkg1.interfac;
 
 interface Int1
 {
@@ -38,15 +38,14 @@ public class Test implements  Int1,Int2{
     public static void main(String[] args)
     {
 
-//            Int1 t= new Test();
-//            t.fun();
-
-
+            Int1 t= new Test();
+            t.fun();
 
     }
 
     @Override
     public void fun() {
+        Int2.super.fun();
         Int1.super.fun();
     }
 }
