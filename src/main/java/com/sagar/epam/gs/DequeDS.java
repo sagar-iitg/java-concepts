@@ -24,6 +24,10 @@ public class DequeDS {
       this.rear=null;
     }
 
+    boolean isEmpty() {
+        return front == null && rear == null;
+    }
+
 
 
     void push_front(int x){
@@ -48,8 +52,8 @@ public class DequeDS {
         }
         else{
             Node temp=new Node(x);
-            rear.next=temp;
             temp.prev=rear;
+            rear.next=temp;
             rear=temp;
 
         }
@@ -108,6 +112,8 @@ public class DequeDS {
     public static void main(String[] args) {
 
         DequeDS obj=new DequeDS();
+        System.out.println( obj.isEmpty());
+
         obj.push_back(10);
         obj.push_back(20);
         obj.push_back(30);
