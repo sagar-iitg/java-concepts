@@ -1,8 +1,6 @@
 package com.sagar.epam.gs;
 
 
-import java.util.Deque;
-
 class Node{
 
     int data;
