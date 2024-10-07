@@ -1,6 +1,8 @@
 package com.sagar.epam.gs;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class FindPair {
@@ -9,8 +11,11 @@ public class FindPair {
 
         int[] arr={1,1,1,1};
         int k=2;
+
         int ans= solve(arr,k);
+
         System.out.println(ans);
+
     }
     private static int solve(int[] arr,int k){
 
