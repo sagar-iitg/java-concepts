@@ -25,7 +25,7 @@ public class DecodeString {
                         stringToRepeat.append(top);
                     st.pop();
                 }
-                StringBuilder numericTimes=new StringBuilder("");
+                StringBuilder numericTimes=new StringBuilder();
                 while (!st.isEmpty() && Character.isDigit(st.peek().charAt(0))){
                     numericTimes.append(st.peek());
                     st.pop();

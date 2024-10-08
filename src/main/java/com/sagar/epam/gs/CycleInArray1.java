@@ -42,7 +42,7 @@ public class CycleInArray1 {
             fast = arr[arr[fast]]; // Move fast by 2 steps
 
             // Check if fast moved out of bounds
-            if (fast >= arr.length) {
+            if (fast<0 || fast >= arr.length) {
                 return -1; // No loop
             }
 

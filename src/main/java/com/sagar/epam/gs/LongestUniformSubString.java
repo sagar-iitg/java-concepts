@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class LongestUniformSubString {
     public static void main(String[] args) {
 
-        String str="aaaa";
+        String str="aabbbcc";
 
 
         int[] ans={-1,-1};
